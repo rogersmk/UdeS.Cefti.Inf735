@@ -1,6 +1,41 @@
 # UdeS.Cefti.Inf735
 UdeS CEFTI INF735
 
+Robert J. Laurin
+Robert.J.Laurin@usherbrooke.ca
+
+## Schedule
+
+Local
+5670
+
+Hours
+18h30-21h30
+
+## Content
+
+| Content   | Week       | Chapter        |
+| --------- | ---------- | -------------- |
+| Block 1   | 1, 2, 3    | 1, 2, 3        |
+| Block 2   | 4, 5       | 10, 11         |
+| Block 3   | B3         | 14, 15, 16, 17 |
+| Intra 30% | 8          | All            |
+| Block 3   | 9          |                |
+| Block 4   | 10         | 12, 13         |
+| Block 5   | 11         | 7, 9           |
+| Block 6   | 12         | 4, 5, 6        |
+| Block 7   | 13         | 8, 18, 19, 20  |
+| Final 40% | 14         | All            |
+
+## Evaluation
+
+| Description | Percent    |
+| ----------- | ---------- |
+| Tp1         | 10%        |
+| Tp2         | 20%        |
+| Intra       | 30%        |
+| Final       | 40%        |
+
 ## Labs
 
 Michel Hebert
