@@ -51,3 +51,17 @@ Dates
 - 12-Oct-2018
 - 02-Nov-2018
 - 07-Dec-2018
+
+## TPs
+
+Rogers M. Kashala
+
+rogers.kashala@gmail.com
+
+514-706-2005
+
+### GDrive folder
+
+https://drive.google.com/open?id=1pUT2FAdq4PjX7A9cz0A6gJk_9Q4cZO4K
+
+
