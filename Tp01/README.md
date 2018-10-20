@@ -6,16 +6,37 @@ Professeur.- Robert J. Laurin
 
 Remise.- Michel.Hebert3@USherbrooke.ca
 
-## Ex1.- L'enfant au tambour!
+## I.- L'enfant au tambour!
 
-### Modele logique dimmensionnel
+### A.- Modèle logique dimmensionnel
 
-## Ex2.- Maman Les petits bateaux Inc
+#### 1.- Dimensions
 
-### Modele Merise
+#### 2.- Faits
+
+## II.- Maman Les petits bateaux Inc.
+
+### A.- Modèle Merise
 
 ![IMG_Inf735-Tp01_Ex2_merise.png](Inf735-Tp01_Ex2_merise.png "Inf735-Tp01_Ex2_merise.png")
 
-### Modele logique dimmensionnel
+### B.- Modèle logique dimmensionnel
 
-:/
+#### 1.- Dimensions
+
+##### a.- Dimension Bateau
+
+NoEnregistrement | NomBapteme | NoEmployeCapitaine
+---------|----------|----------
+
+##### b.- Dimension Voyage
+
+NoVoyage | NoPortDepart | NoPortArrive | NoClient | NoConnaissement
+---------|----------|----------|----------|----------
+
+#### 2.- Faits
+
+##### a.- Fait A
+
+##### b.- Fait Localisation de conteneurs à différentes dates
+
