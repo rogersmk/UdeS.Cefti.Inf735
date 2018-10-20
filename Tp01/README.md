@@ -36,7 +36,7 @@ NoVoyage | NoPortDepart | NoPortArrive | NoClient | NoConnaissement
 
 #### 2.- Faits
 
-##### a.- Fait A
+##### a.- Fait Différents voyages selon différents critères
 
-##### b.- Fait Localisation de conteneurs à différentes dates
+##### b.- Fait Localisation (port/ ville) de conteneurs à différentes dates
 
