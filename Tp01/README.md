@@ -31,12 +31,17 @@ NoEnregistrement | NomBapteme | NoEmployeCapitaine
 
 ##### b.- Dimension Voyage
 
-NoVoyage | NoPortDepart | NoPortArrive | NoClient | NoConnaissement
----------|----------|----------|----------|----------
+NoVoyage | NoPortDepart | DateDepart | NoPortArrive | DateArrive | NoClient | NoConnaissement | PoidsConnaissement
+---------|----------|----------|----------|----------|----------|----------|----------
 
 #### 2.- Faits
 
 ##### a.- Fait Différents voyages selon différents critères
 
+ClefDimVoyage | ClefDimDepart | ClefDimArrive | ClefDimClient | ClefDimConteneur | ClefDimBateau
+---------|---------|----------|----------|----------|----------
+
 ##### b.- Fait Localisation (port/ ville) de conteneurs à différentes dates
 
+ClefDimConteneur | ClefDimArriveDepart
+---------|---------
