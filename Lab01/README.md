@@ -10,5 +10,9 @@ https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks
 
 ## AdventureWorks Data Warehouse for MS SQL Server 2017
 
+https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases/adventure-works/data-warehouse-install-script
+
+https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks2017.bak
+
 https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-2017
 
