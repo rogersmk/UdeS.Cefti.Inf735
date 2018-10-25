@@ -16,3 +16,8 @@ https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks
 
 https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-2017
 
+ALTER AUTHORIZATION ON DATABASE::AdventureWorks2017 TO sa
+
+ALTER AUTHORIZATION ON DATABASE::AdventureWorksLT2017 TO sa
+
+ALTER AUTHORIZATION ON DATABASE::AdventureWorksDW TO sa
