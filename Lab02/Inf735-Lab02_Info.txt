@@ -1,0 +1,30 @@
+﻿Ce fichier zippé contient les fichiers suivants :
+
+*_meta.txt — contient les métadonnées pour le fichier des données, y compris de l’information générale, des notes relatives à la géographie, des définitions et des notes de bas de page.
+
+*CSV_data.csv — contient les données dans un format délimité par des virgules.
+ou
+*TAB_data.csv — contient les données dans un onglet.
+
+Geo_debutrangee_CSV.csv
+ou
+Geo_debut_rangee_TAB.csv
+Contient le numéro de la rangée de départ pour chaque géographie dans le fichier des données. En raison du nombre d’enregistrements dans le fichier de téléchargement, certains progiciels pourraient ne pas être en mesure d’importer le Profil du recensement pour toutes les géographies comprises dans le niveau de géographie sélectionné. Afin d’aider les utilisateurs à trouver les données pour leurs régions géographiques d’intérêt, ce fichier affiche le numéro de la rangée de départ pour chaque géographie comprise dans le fichier des données. Certains progiciels vous permettent de spécifier le numéro de la rangée de départ à l’importation des données. Par exemple, l’assistant d’importation de textes de Microsoft Excel inclut une option pour « Commencer l’importation à la rangée : », et l’assistant d’importation de données de SAS inclut une option pour « Les enregistrements de données commencent à l’enregistrement n° ».
+
+Cliché d’enregistrement du fichier des données (en-têtes de colonne) :
+
+"ANNEE_DE_RECENSEMENT"
+"CODE_GÉO (LDR)"
+"NIVEAU_GÉO"
+"NOM_GÉO"
+"TGN"
+"TGN_FL"
+"INDICATEUR_QUALITÉ_DONNÉES"
+"NOM_TYPE_SDR"
+"CODE_GÉO_ALT"
+"DIM: Profil des divisions de recensement/subdivisions de recensement (2247)"
+"Membre ID: Profil des divisions de recensement/subdivisions de recensement (2247)"
+"Notes: Profil des divisions de recensement/subdivisions de recensement (2247)"
+"Dim: Sexe (3): Membre ID: [1]: Total - Sexe"
+"Dim: Sexe (3): Membre ID: [2]: Sexe masculin"
+"Dim: Sexe (3): Membre ID: [3]: Sexe féminin"
