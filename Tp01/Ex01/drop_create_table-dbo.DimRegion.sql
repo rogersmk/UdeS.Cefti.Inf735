@@ -52,7 +52,11 @@ CREATE TABLE [dbo].[DimRegion](
 	[PostalCode]	[nchar](7)				NOT NULL,
 	[City]			[nchar](32)				NOT NULL,
 	[Province]		[nchar](32)				NOT NULL,
-	[Country]		[nchar](64)				NOT NULL
+	[Country]		[nchar](64)				NOT NULL,
+ CONSTRAINT [PK_DimRegion] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
 

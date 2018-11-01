@@ -161,7 +161,11 @@ CREATE TABLE [dbo].[FactDrumSales](
 	[AccessorySalesAmountUSD]		[decimal](18, 2)		NOT NULL,
 	[SalesCommissionUSD]			[decimal](18, 2)		NOT NULL,
 	[TransportCommissionUSD]		[decimal](18, 2)		NOT NULL,
-	[TransportFeesUSD]				[decimal](18, 2)		NOT NULL
+	[TransportFeesUSD]				[decimal](18, 2)		NOT NULL,
+ CONSTRAINT [PK_FactDrumSales] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
 
