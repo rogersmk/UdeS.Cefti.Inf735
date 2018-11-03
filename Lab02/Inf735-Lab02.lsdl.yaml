@@ -1,0 +1,504 @@
+Version: 0.7.0
+Language: en-US
+DynamicImprovement: HighConfidence
+Entities:
+  fact_population:
+    Binding: {Table: FactPopulation}
+    State: Generated
+    Words:
+    - fact population: {State: Generated}
+    - FactPopulation: {State: Generated, Weight: 0.99}
+
+  fact_population.code_province:
+    Binding: {Table: FactPopulation, Column: CodeProvince}
+    State: Generated
+    Words:
+    - code province: {State: Generated}
+    - CodeProvince: {State: Generated, Weight: 0.99}
+
+  fact_population.code_population:
+    Binding: {Table: FactPopulation, Column: CodePopulation}
+    State: Generated
+    Words:
+    - code population: {State: Generated}
+    - CodePopulation: {State: Generated, Weight: 0.99}
+
+  fact_population.sexe:
+    Binding: {Table: FactPopulation, Column: Sexe}
+    State: Generated
+    Words:
+    - sexe: {State: Generated}
+
+  fact_population.population:
+    Binding: {Table: FactPopulation, Column: Population}
+    State: Generated
+    Words:
+    - population: {State: Generated}
+
+  fact_population.population_age_median:
+    Binding: {Table: FactPopulation, Column: PopulationAgeMedian}
+    State: Generated
+    Words:
+    - population age median: {State: Generated}
+    - PopulationAgeMedian: {State: Generated, Weight: 0.99}
+    - median: {State: Generated, Weight: 0.97}
+
+  fact_population.age_moyen:
+    Binding: {Table: FactPopulation, Measure: AgeMoyen}
+    State: Generated
+    Words:
+    - age moyen: {State: Generated}
+    - AgeMoyen: {State: Generated, Weight: 0.99}
+
+  fact_population.age_moyen_hommes:
+    Binding: {Table: FactPopulation, Measure: AgeMoyenHommes}
+    State: Generated
+    Words:
+    - age moyen hommes: {State: Generated}
+    - AgeMoyenHommes: {State: Generated, Weight: 0.99}
+
+  fact_population.age_moyen_femmes:
+    Binding: {Table: FactPopulation, Measure: AgeMoyenFemmes}
+    State: Generated
+    Words:
+    - age moyen femmes: {State: Generated}
+    - AgeMoyenFemmes: {State: Generated, Weight: 0.99}
+
+  fact_revenu:
+    Binding: {Table: FactRevenu}
+    State: Generated
+    Words:
+    - fact revenu: {State: Generated}
+    - FactRevenu: {State: Generated, Weight: 0.99}
+
+  fact_revenu.code_province:
+    Binding: {Table: FactRevenu, Column: CodeProvince}
+    State: Generated
+    Words:
+    - code province: {State: Generated}
+    - CodeProvince: {State: Generated, Weight: 0.99}
+
+  fact_revenu.code_revenu:
+    Binding: {Table: FactRevenu, Column: CodeRevenu}
+    State: Generated
+    Words:
+    - code revenu: {State: Generated}
+    - CodeRevenu: {State: Generated, Weight: 0.99}
+
+  fact_revenu.total:
+    Binding: {Table: FactRevenu, Column: Total}
+    State: Generated
+    Words:
+    - total: {State: Generated}
+
+  fact_revenu.total_masculin:
+    Binding: {Table: FactRevenu, Column: TotalMasculin}
+    State: Generated
+    Words:
+    - total masculin: {State: Generated}
+    - TotalMasculin: {State: Generated, Weight: 0.99}
+
+  fact_revenu.total_feminin:
+    Binding: {Table: FactRevenu, Column: TotalFeminin}
+    State: Generated
+    Words:
+    - total feminin: {State: Generated}
+    - TotalFeminin: {State: Generated, Weight: 0.99}
+
+  fact_taille_famille:
+    Binding: {Table: FactTailleFamille}
+    State: Generated
+    Words:
+    - fact taille famille: {State: Generated}
+    - FactTailleFamille: {State: Generated, Weight: 0.99}
+
+  fact_taille_famille.code_province:
+    Binding: {Table: FactTailleFamille, Column: CodeProvince}
+    State: Generated
+    Words:
+    - code province: {State: Generated}
+    - CodeProvince: {State: Generated, Weight: 0.99}
+
+  fact_taille_famille.code_famille:
+    Binding: {Table: FactTailleFamille, Column: CodeFamille}
+    State: Generated
+    Words:
+    - code famille: {State: Generated}
+    - CodeFamille: {State: Generated, Weight: 0.99}
+
+  fact_taille_famille.total:
+    Binding: {Table: FactTailleFamille, Column: Total}
+    State: Generated
+    Words:
+    - total: {State: Generated}
+
+  province:
+    Binding: {Table: Province}
+    State: Generated
+    Words:
+    - province: {State: Generated}
+
+  province.province:
+    Binding: {Table: Province, Column: Province}
+    State: Generated
+    Words:
+    - province: {State: Generated}
+
+  plage_age:
+    Binding: {Table: PlageAge}
+    State: Generated
+    Words:
+    - plage age: {State: Generated}
+    - PlageAge: {State: Generated, Weight: 0.99}
+
+  plage_age.plage_dâge:
+    Binding: {Table: PlageAge, Column: Plage d'âge}
+    State: Generated
+    Words:
+    - plage d'âge: {State: Generated}
+
+  plage_age.plage_age_tri:
+    Binding: {Table: PlageAge, Column: PlageAgeTri}
+    State: Generated
+    Words:
+    - plage age tri: {State: Generated}
+    - PlageAgeTri: {State: Generated, Weight: 0.99}
+
+  plage_age.age_median:
+    Binding: {Table: PlageAge, Column: AgeMedian}
+    State: Generated
+    Words:
+    - age median: {State: Generated}
+    - AgeMedian: {State: Generated, Weight: 0.99}
+    - median: {State: Generated, Weight: 0.97}
+
+  plage_age.population_canadienne:
+    Binding: {Table: PlageAge, Measure: PopulationCanadienne}
+    State: Generated
+    Words:
+    - population canadienne: {State: Generated}
+    - PopulationCanadienne: {State: Generated, Weight: 0.99}
+
+  type_revenu:
+    Binding: {Table: TypeRevenu}
+    State: Generated
+    Words:
+    - type revenu: {State: Generated}
+    - TypeRevenu: {State: Generated, Weight: 0.99}
+
+  type_revenu.type_de_revenu:
+    Binding: {Table: TypeRevenu, Column: Type de revenu}
+    State: Generated
+    Words:
+    - type de revenu: {State: Generated}
+
+  type_taille:
+    Binding: {Table: TypeTaille}
+    State: Generated
+    Words:
+    - type taille: {State: Generated}
+    - TypeTaille: {State: Generated, Weight: 0.99}
+
+  type_taille.type_de_taille:
+    Binding: {Table: TypeTaille, Column: Type de Taille}
+    State: Generated
+    Words:
+    - type de taille: {State: Generated}
+
+Relationships:
+  province_is_named_province:
+    Binding: {Table: Province}
+    State: Generated
+    Phrasings:
+    - Name:
+        Subject: province
+        Name: province.province
+      State: Generated
+      Weight: 0.99
+    - Attribute: {Subject: province, Object: province.province}
+      State: Generated
+      Weight: 0.99
+
+  fact_population_is_large:
+    Binding: {Table: FactPopulation}
+    State: Generated
+    Phrasings:
+    - Adjective:
+        Subject: fact_population
+        Adjectives: [large, big, populated]
+        Antonyms: [small]
+        Measurement: fact_population.population
+      State: Generated
+      Weight: 0.99
+    - Attribute: {Subject: fact_population, Object: fact_population.population}
+      State: Generated
+      Weight: 0.99
+
+  fact_population_in_province:
+    Binding: {Table: FactPopulation}
+    State: Generated
+    Roles:
+      province:
+        Target: province
+        Nouns: [nom province]
+    Phrasings:
+    - Preposition:
+        Subject: fact_population
+        Prepositions: [in]
+        Object: province
+      State: Generated
+      Weight: 0.99
+    - Attribute: {Subject: fact_population, Object: province}
+      State: Generated
+      Weight: 0.99
+    - Attribute: {Subject: province, Object: fact_population}
+      State: Generated
+      Weight: 0.99
+
+  fact_revenu_in_province:
+    Binding: {Table: FactRevenu}
+    State: Generated
+    Roles:
+      province:
+        Target: province
+        Nouns: [nom province]
+    Phrasings:
+    - Preposition:
+        Subject: fact_revenu
+        Prepositions: [in]
+        Object: province
+      State: Generated
+      Weight: 0.99
+    - Attribute: {Subject: fact_revenu, Object: province}
+      State: Generated
+      Weight: 0.99
+    - Attribute: {Subject: province, Object: fact_revenu}
+      State: Generated
+      Weight: 0.99
+
+  fact_taille_famille_in_province:
+    Binding: {Table: FactTailleFamille}
+    State: Generated
+    Roles:
+      province:
+        Target: province
+        Nouns: [nom province]
+    Phrasings:
+    - Preposition:
+        Subject: fact_taille_famille
+        Prepositions: [in]
+        Object: province
+      State: Generated
+      Weight: 0.99
+    - Attribute: {Subject: fact_taille_famille, Object: province}
+      State: Generated
+      Weight: 0.99
+    - Attribute: {Subject: province, Object: fact_taille_famille}
+      State: Generated
+      Weight: 0.99
+
+  fact_population_has_code_province:
+    Binding: {Table: FactPopulation}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: fact_population, Object: fact_population.code_province}
+      State: Generated
+      Weight: 0.99
+
+  fact_population_has_code_population:
+    Binding: {Table: FactPopulation}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: fact_population, Object: fact_population.code_population}
+      State: Generated
+      Weight: 0.99
+
+  fact_population_has_sexe:
+    Binding: {Table: FactPopulation}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: fact_population, Object: fact_population.sexe}
+      State: Generated
+      Weight: 0.99
+
+  fact_population_has_population_age_median:
+    Binding: {Table: FactPopulation}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: fact_population, Object: fact_population.population_age_median}
+      State: Generated
+      Weight: 0.99
+
+  fact_population_has_age_moyen:
+    Binding: {Table: FactPopulation}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: fact_population, Object: fact_population.age_moyen}
+      State: Generated
+      Weight: 0.99
+
+  fact_population_has_age_moyen_hommes:
+    Binding: {Table: FactPopulation}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: fact_population, Object: fact_population.age_moyen_hommes}
+      State: Generated
+      Weight: 0.99
+
+  fact_population_has_age_moyen_femmes:
+    Binding: {Table: FactPopulation}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: fact_population, Object: fact_population.age_moyen_femmes}
+      State: Generated
+      Weight: 0.99
+
+  fact_revenu_has_code_province:
+    Binding: {Table: FactRevenu}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: fact_revenu, Object: fact_revenu.code_province}
+      State: Generated
+      Weight: 0.99
+
+  fact_revenu_has_code_revenu:
+    Binding: {Table: FactRevenu}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: fact_revenu, Object: fact_revenu.code_revenu}
+      State: Generated
+      Weight: 0.99
+
+  fact_revenu_has_total:
+    Binding: {Table: FactRevenu}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: fact_revenu, Object: fact_revenu.total}
+      State: Generated
+      Weight: 0.99
+
+  fact_revenu_has_total_masculin:
+    Binding: {Table: FactRevenu}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: fact_revenu, Object: fact_revenu.total_masculin}
+      State: Generated
+      Weight: 0.99
+
+  fact_revenu_has_total_feminin:
+    Binding: {Table: FactRevenu}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: fact_revenu, Object: fact_revenu.total_feminin}
+      State: Generated
+      Weight: 0.99
+
+  fact_taille_famille_has_code_province:
+    Binding: {Table: FactTailleFamille}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: fact_taille_famille, Object: fact_taille_famille.code_province}
+      State: Generated
+      Weight: 0.99
+
+  fact_taille_famille_has_code_famille:
+    Binding: {Table: FactTailleFamille}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: fact_taille_famille, Object: fact_taille_famille.code_famille}
+      State: Generated
+      Weight: 0.99
+
+  fact_taille_famille_has_total:
+    Binding: {Table: FactTailleFamille}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: fact_taille_famille, Object: fact_taille_famille.total}
+      State: Generated
+      Weight: 0.99
+
+  plage_age_has_plage_dâge:
+    Binding: {Table: PlageAge}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: plage_age, Object: plage_age.plage_dâge}
+      State: Generated
+      Weight: 0.99
+
+  plage_age_has_plage_age_tri:
+    Binding: {Table: PlageAge}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: plage_age, Object: plage_age.plage_age_tri}
+      State: Generated
+      Weight: 0.99
+
+  plage_age_has_age_median:
+    Binding: {Table: PlageAge}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: plage_age, Object: plage_age.age_median}
+      State: Generated
+      Weight: 0.99
+
+  plage_age_has_population_canadienne:
+    Binding: {Table: PlageAge}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: plage_age, Object: plage_age.population_canadienne}
+      State: Generated
+      Weight: 0.99
+
+  type_revenu_has_type_de_revenu:
+    Binding: {Table: TypeRevenu}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: type_revenu, Object: type_revenu.type_de_revenu}
+      State: Generated
+      Weight: 0.99
+
+  type_taille_has_type_de_taille:
+    Binding: {Table: TypeTaille}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: type_taille, Object: type_taille.type_de_taille}
+      State: Generated
+      Weight: 0.99
+
+  fact_population_has_plage_age:
+    Binding: {Table: FactPopulation}
+    State: Generated
+    Roles:
+      plage_age:
+        Target: plage_age
+        Nouns: [description population]
+    Phrasings:
+    - Attribute: {Subject: fact_population, Object: plage_age}
+      State: Generated
+      Weight: 0.99
+    - Attribute: {Subject: plage_age, Object: fact_population}
+      State: Generated
+      Weight: 0.99
+
+  fact_revenu_has_type_revenu:
+    Binding: {Table: FactRevenu}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: fact_revenu, Object: type_revenu}
+      State: Generated
+      Weight: 0.99
+    - Attribute: {Subject: type_revenu, Object: fact_revenu}
+      State: Generated
+      Weight: 0.99
+
+  fact_taille_famille_has_type_taille:
+    Binding: {Table: FactTailleFamille}
+    State: Generated
+    Phrasings:
+    - Attribute: {Subject: fact_taille_famille, Object: type_taille}
+      State: Generated
+      Weight: 0.99
+    - Attribute: {Subject: type_taille, Object: fact_taille_famille}
+      State: Generated
+      Weight: 0.99
+
