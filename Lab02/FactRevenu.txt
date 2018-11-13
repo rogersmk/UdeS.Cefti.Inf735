@@ -1,0 +1,8 @@
+FactRevenu
+ProvinceCode
+ProvinceName
+RevenuDescription
+RevenuCode
+Total
+TotalMale
+TotalFemale
